@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etUserMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your message here"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnSendMsgToSecondActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Message to Second Activity"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnSendMsgToThirdActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Message to Third Activity"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+</LinearLayout>
